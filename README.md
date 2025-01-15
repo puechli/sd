@@ -1,2 +1,5 @@
-# sd
-School Project about data classification, please don't interfere with our work !
+# Data analysis : Children and Autism
+
+### *AVANTURIER Aurélie, PUECH Lilian*
+
+## Lecture et première analyse des données
