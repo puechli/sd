@@ -20,4 +20,12 @@ Ce serait utile si nous pouvions obtenir un arbre de classification supervisée
 On peut importer les doonées en R en téléchargeant le fichier ARFF depuis la
 base de données en ligne et la charger via la commande ``X<-read.arff("z.arff")``.
 
+Lorsqu'on observe les doonées via ``summary(X)``, on s'aperçoit qu'il y a beaucoup
+de disparité parmi les individus, qu'il y a "de tout". Pour analyser descriptivement
+les données, on peut utiliser les commandes suivantes:
 
+1. ``summary(X)``: donne en particulier le 1er quartile, 3ème quartile, min, max,
+moyenne et médiane de chaque variable numérique et pour les variables nominales,
+le taux de chaque valeur (combien d'européens, combien d'asiatiques, combien de noirs,
+combien de blancs européens, etc, pour la variable 'ethnicity' par exemple).
+2. ``var(X)``: donne les covariances entre chaque variable.
