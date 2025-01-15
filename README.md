@@ -17,4 +17,7 @@ Ce serait utile si nous pouvions obtenir un arbre de classification supervisée
 
 ## Lecture et analyse descriptive des données
 
+On peut importer les doonées en R en téléchargeant le fichier ARFF depuis la
+base de données en ligne et la charger via la commande ``X<-read.arff("z.arff")``.
+
 

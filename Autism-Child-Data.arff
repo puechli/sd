@@ -19,7 +19,7 @@
 @attribute used_app_before {no,yes}
 @attribute result numeric
 @attribute age_desc {'4-11 years'}
-@attribute relation {Parent,Self,Relative,'Health care professional',self}
+@attribute relation {Parent,Self,Relative,'Health care professional'}
 @attribute Class/ASD {NO,YES}
 
 @data
@@ -205,7 +205,7 @@
 0,0,1,0,1,1,1,1,1,1,4,m,Asian,no,no,Bangladesh,no,7,'4-11 years',Parent,YES
 1,1,1,1,1,1,0,0,1,1,4,f,?,yes,no,China,no,8,'4-11 years',?,YES
 0,1,1,0,1,0,1,0,0,0,4,f,?,no,no,Pakistan,no,4,'4-11 years',?,NO
-1,0,0,1,1,1,1,1,1,1,11,m,Hispanic,no,no,'United States',yes,8,'4-11 years',self,YES
+1,0,0,1,1,1,1,1,1,1,11,m,Hispanic,no,no,'United States',yes,8,'4-11 years',Self,YES
 0,1,1,1,0,1,0,0,0,1,10,f,Asian,no,no,Australia,no,5,'4-11 years',Parent,NO
 1,0,1,1,1,1,0,1,0,1,11,m,Asian,no,no,India,no,7,'4-11 years',Parent,YES
 1,0,1,0,1,0,1,0,1,1,4,m,Black,yes,no,'United Kingdom',no,6,'4-11 years',Parent,NO
